@@ -1,0 +1,30 @@
+{
+    "name": "TinyPress - Shorten and Track URLs",
+    "version": "1.0.0",
+    "description": "No more long URL, Shorten and track it with TinyPress.",
+    "permissions": [
+        "storage",
+        "tabs"
+    ],
+    "action": {
+        "default_icon": {
+            "16": "assets/images/icon-16.png",
+            "32": "assets/images/icon-32.png",
+            "48": "assets/images/icon-48.png",
+            "128": "assets/images/icon-128.png"
+        },
+        "default_popup": "index.html"
+    },
+    "icons": {
+        "16": "assets/images/icon-16.png",
+        "32": "assets/images/icon-32.png",
+        "48": "assets/images/icon-48.png",
+        "128": "assets/images/icon-128.png"
+    },
+    "options_page": "options.html",
+    "manifest_version": 3,
+    "host_permissions": [
+        "<all_urls>"
+    ]
+}
+
