@@ -1,1 +1,1 @@
-# tinypress-extension-chrome
+# Google Chrome Extension for tinyPress
