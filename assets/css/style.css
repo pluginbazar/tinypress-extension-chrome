@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+h2 {
+    font-family: 'Inknut Antiqua';
+}
 
 body.loading {
     position: relative;
@@ -169,4 +182,19 @@ body.loading .tinypress-loader .tinypress-spinner div:nth-child(12) {
     font-size: 13px;
     line-height: 21px;
     color: #ddd;
+}
+
+.tinypress-credit {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 18px;;
+}
+
+.tinypress-credit a.site-link {
+    color: #0c4a6e;
+    cursor: pointer;
 }
